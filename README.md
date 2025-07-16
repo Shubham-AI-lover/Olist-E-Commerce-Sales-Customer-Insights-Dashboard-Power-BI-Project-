@@ -48,5 +48,37 @@ Below is a summary of the key transformation steps applied:
  Dropped redundant or irrelevant columns to streamline the model.  
 
 These transformations ensured a clean, reliable dataset ready for advanced modeling and insight generation in Power BI.  
-The dataset had 8 tables after validation and cleaning. Details of cleaning per table can be found [here](Data_Transformation_Summary.pdf). Below are snapshots of the transformed tables.
+The dataset had 8 tables after validation and cleaning. Details of cleaning per table can be found [here](Data_Transformation_Summary.pdf). Below are snapshots of the transformed tables.  
+
+
+#### **olist orders**
+<img width="1794" height="773" alt="Olist_orders" src="https://github.com/user-attachments/assets/bc55f8cd-837e-4950-9e85-d0a3833c9a48" />  
+
+#### **olist order items**  
+<img width="1802" height="820" alt="Olist_order_items" src="https://github.com/user-attachments/assets/c44ddfd5-0f86-4224-8b91-4a187c94f378" />  
+
+#### **olist customers**  
+<img width="1526" height="759" alt="Olist_customers" src="https://github.com/user-attachments/assets/253e092e-b55e-417f-af33-8b17bfa705a4" />  
+
+#### **olist geolocation**  
+<img width="1252" height="757" alt="olist_geolocation" src="https://github.com/user-attachments/assets/f5afdefc-dd38-41e3-8a58-30337680569e" />  
+
+#### **olist order payments**
+<img width="1220" height="813" alt="olist_order_payments" src="https://github.com/user-attachments/assets/3c555073-951f-42b5-afa0-fb3932f6588a" />  
+
+#### **olist order reviews**
+<img width="1746" height="785" alt="Olist_order_reviews" src="https://github.com/user-attachments/assets/d6e84153-dc73-409e-9c9c-ae2190b0a92a" />  
+
+#### **olist products**
+<img width="1805" height="771" alt="Olist_products" src="https://github.com/user-attachments/assets/d6c3c173-5dcb-4710-a2e7-5fa0aac36a89" />  
+
+#### **olist sellers**
+<img width="1001" height="758" alt="olist_sellers" src="https://github.com/user-attachments/assets/77be897e-de1f-4a29-984e-b81b80028f8c" />
+
+
+
+
+
+
+
 
