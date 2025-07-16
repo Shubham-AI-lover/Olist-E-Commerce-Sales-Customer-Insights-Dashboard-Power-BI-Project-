@@ -48,5 +48,5 @@ Below is a summary of the key transformation steps applied:
  Dropped redundant or irrelevant columns to streamline the model.  
 
 These transformations ensured a clean, reliable dataset ready for advanced modeling and insight generation in Power BI.  
-The dataset had 8 tables after validation and cleaning. Details of cleaning per table can be found [here](data_transformation_summary.pdf). Below are snapshots of the transformed tables.
+The dataset had 8 tables after validation and cleaning. Details of cleaning per table can be found [here](Data_Transformation_Summary.pdf). Below are snapshots of the transformed tables.
 
