@@ -76,6 +76,105 @@ The dataset had 8 tables after validation and cleaning. Details of cleaning per 
 <img width="1001" height="758" alt="olist_sellers" src="https://github.com/user-attachments/assets/77be897e-de1f-4a29-984e-b81b80028f8c" />
 
 
+## **Data Modeling**
+
+To enable meaningful analysis, the dataset was modeled into a Star Schema using Power BI. Since the source data was normalized (spread across multiple related tables), data modeling was crucial to establish proper relationships and support efficient querying.  
+
+The final model consists of:  
+
+#### **Fact Table**  
+###### olist_order_items  
+Serves as the central fact table containing the most granular transactional data. It includes measurable, quantitative fields such as product price and freight value, which can be aggregated for analysis.  
+
+#### **Factless Fact Table**  
+###### olist_orders  
+This table acts as a bridge table containing key timestamp columns (e.g., purchase, approval, delivery dates) and foreign keys to other dimension tables. It does not include any numeric measures itself, hence classified as a factless fact table.
+
+#### **Dimension Tables**  
+###### olist_customers –Customer details like location and state 
+###### olist_geolocation –Latitude/longitude and ZIP-code-based location info  
+###### olist_order_payments –Payment type and amount 
+###### olist_order_reviews –Customer feedback and ratings
+###### olist_products –Product categories and metadata
+###### olist_sellers –Seller’s location and state info  
+
+
+### Date Dimension
+To support time-based analysis, a custom DimDate table was created using DAX in Power BI. The table spans from January 1, 2016 to December 30, 2018 and includes both calendar and fiscal attributes to enable dynamic filtering, grouping, and time intelligence calculations.
+
+The following columns were added:
+#### Calendar Columns:
+Year – Extracted using YEAR()  
+Month – Full month name using FORMAT('Date'[Date], "MMMM")  
+Month Number – Numeric month using MONTH()  
+Quarter – Quarter extracted as "Q" & QUARTER()  
+Week Number – Week of the year using WEEKNUM()  
+Day of the Week – Name of the weekday using FORMAT(WEEKDAY(), "dddd")  
+
+#### Fiscal Calendar Columns:    
+Fiscal Year= YEAR('Date'[Date]) + IF(MONTH('Date'[Date]) >= 4, 1, 0)  
+Fiscal Quarter= SWITCH(  
+    TRUE(),  
+    MONTH('Date'[Date]) IN {4, 5, 6}, "Q1",  
+    MONTH('Date'[Date]) IN {7, 8, 9}, "Q2",  
+    MONTH('Date'[Date]) IN {10, 11, 12}, "Q3",  
+    MONTH('Date'[Date]) IN {1, 2, 3}, "Q4"  
+)  
+Fiscal Month Number= MOD(MONTH('Date'[Date]) + 8, 12) + 1     
+Fiscal Month = FORMAT('Date'[Date], "MMMM")  
+
+These DAX formulas were written manually in Power BI using calculated columns to build a robust and reusable date dimension for business analysis.  
+
+
+<img width="1364" height="686" alt="Data Modelling" src="https://github.com/user-attachments/assets/43be279c-3936-4e19-a4db-2c96673b0c9b" />  
+
+ThReport Pages Overviewe project follows a Star Schema design with olist_order_items as the central Fact Table, surrounded by related Dimension Tables such as customers, products, sellers, payments, reviews, and a custom date dimension. The model enables efficient slicing, dicing, and filtering across time, geography, and product-related metrics.  
+
+## Report Pages & Visualizations  
+
+The Power BI dashboard is structured into multiple report pages, each focusing on a key area of e-commerce business analysis. These pages are designed to help stakeholders gain actionable insights through interactive and dynamic visuals.  
+
+### Report Pages Overview  
+
+**Business Snapshot**  
+A high-level overview of key business metrics, such as total sales, orders, revenue, and customer trends.  
+
+**Category & Product Insights**  
+Understand product performance, category trends, and customer preferences across different product types.  
+
+**Customer Behavior & Loyalty**  
+Analyze customer purchase frequency, retention rates, and identify loyal vs. one-time buyers.  
+
+**Customer Location & Retention**  
+Visualize geographical distribution of customers and track customer churn and repeat behavior across regions.  
+
+**Seller Performance**  
+Evaluate seller contributions, order fulfillment efficiency, and delivery performance.  
+
+**Orders & Payments Analytics**  
+Dive into payment types, transaction values, and patterns of installment-based purchases.  
+
+**Order Cancellations Analysis**  
+Identify the causes and trends of cancellations to improve fulfillment processes and customer satisfaction.  
+
+**Profitability & Marketing**  
+Explore profit margins, marketing efforts, and campaign performance to support strategic decision-making.  
+
+
+### Key Measures & KPIs Used  
+Below are the main DAX measures calculated and used in the report:  
+
+(1)<pre>Total Revenue = 
+CALCULATE(
+    SUM('olist_order_payments_dataset'[payment_value]),
+    'olist_orders_dataset'[order_status] = "delivered"
+)<pre>  
+
+
+
+
+
+
 
 
 
