@@ -164,12 +164,105 @@ Explore profit margins, marketing efforts, and campaign performance to support s
 ### Key Measures & KPIs Used  
 Below are the main DAX measures calculated and used in the report:  
 
-(1)<pre>Total Revenue = 
+**(1)**  
+``` DAX  
+Total Revenue = 
 CALCULATE(
     SUM('olist_order_payments_dataset'[payment_value]),
     'olist_orders_dataset'[order_status] = "delivered"
-)<pre>  
+)
+```
 
+**(2)**
+``` DAX
+ Total orders Placed = COUNT(olist_orders_dataset[order_id])
+```
+**(3)**
+``` DAX
+Total Orders(Delivered) = CALCULATE(
+    COUNT(olist_orders_dataset[order_id]),
+    olist_orders_dataset[order_status]="delivered"
+)
+```
+
+**(4)**  
+``` DAX
+Average Rating = 
+CALCULATE(
+    AVERAGE('olist_order_reviews_dataset'[review_score])
+)
+```
+
+**(5)**  
+``` DAX
+Active Sellers = 
+CALCULATE(
+    DISTINCTCOUNT(olist_order_items_dataset[seller_id]),
+    olist_orders_dataset[order_status]="delivered",
+    'olist_orders_dataset'[order_purchase_timestamp]>= MIN(olist_orders_dataset[order_purchase_timestamp])-30,
+    olist_orders_dataset[order_purchase_timestamp]<=MAX(olist_orders_dataset[order_purchase_timestamp]))
+```
+
+**(6)**
+``` DAX
+Repeat Purchase Customers = CALCULATE(
+     DISTINCTCOUNT(olist_customers_dataset[customer_unique_id]),
+     olist_customers_dataset[Repeat Purchase]=1,
+     olist_orders_dataset[order_status]="delivered"
+)
+```
+**(7)**
+``` DAX
+Gross Profit Margin = DIVIDE(
+    CALCULATE(SUM(olist_order_items_dataset[price]),
+    olist_orders_dataset[order_status]="delivered"),
+    [Total Revenue])
+```
+
+**(8)**  
+``` DAX
+Average Order Value = 
+DIVIDE([Total Revenue],
+CALCULATE(COUNT(olist_orders_dataset[order_id]),
+olist_orders_dataset[order_status]="delivered")
+)
+```
+
+**(9)**
+``` DAX
+Aov by Product Category = 
+DIVIDE([Total Revenue],
+    CALCULATE([Total Orders(Delivered)]
+    )
+)
+```
+
+**(10)**
+``` DAX
+Average Order Cancellation Rate = 
+DIVIDE(
+    CALCULATE(COUNTROWS(olist_orders_dataset),
+    olist_orders_dataset[order_status]="canceled"),
+    COUNTROWS(olist_orders_dataset)
+)
+```
+**(11)**
+```DAX
+Customer Retention Rate% = 
+ DIVIDE([Repeat Purchase Customers],
+ COUNTROWS('olist_customers_dataset'))
+ *100
+```
+
+**(12)**
+```DAX
+Number of Products = CALCULATE(
+    DISTINCTCOUNT('olist_order_items_dataset'[product_id]),
+    olist_orders_dataset[order_status]="delivered"
+)
+```
+
+  
 
 
 
