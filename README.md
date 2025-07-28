@@ -262,6 +262,34 @@ Number of Products = CALCULATE(
 )
 ```
 
+## (1) Business Snapshot  
+<img width="1297" height="702" alt="Business_Snapshot" src="https://github.com/user-attachments/assets/67d28c0e-2a82-4a47-8a26-47e953f86242" />  
+
+The Business Snapshot page provides a high-level overview of key performance indicators for the Olist e-commerce dataset, helping stakeholders quickly understand business health and trends.
+
+**Total Revenue**:
+The total revenue generated from delivered orders is approximately $15.42M, showing strong sales performance over the dataset period (2016–2018).  
+**Total Orders Placed**:
+Around 96,478 orders were successfully placed, reflecting healthy customer activity.  
+**Average Order Value**:
+The average value per order is $159.85, which indicates moderate to high-value purchases by customers.  
+**Active Sellers**:
+The platform had 2,970 active sellers, showcasing a wide seller network contributing to the marketplace.
+#### Visual Trend Analysis:  
+**Revenue by Year**:
+A consistent upward trend is observed from 2016 to 2018, demonstrating growing business performance year-over-year.
+
+**Revenue by Date**:
+Daily revenue insights show fluctuations with a few noticeable peaks, suggesting promotional periods or high-demand days.
+
+**Order Variation (Year & Month)**:
+Monthly order trends reveal seasonality, with peaks in late 2017 and early 2018 — useful for marketing and inventory planning.  
+
+#### Business Insight:
+This snapshot enables quick decision-making by combining key metrics with trend visuals. It helps identify business growth patterns, active seller engagement, and order behaviors over time.
+
+
+
   
 
 
