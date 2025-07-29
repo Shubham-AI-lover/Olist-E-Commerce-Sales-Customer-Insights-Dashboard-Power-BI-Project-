@@ -439,7 +439,44 @@ Home Appliances 2
 Agro Industry & Commerce  
 
 **Watch for Lower Margins**:  
-Categories like Health & Beauty (86.87%) and Cool Stuff (86.90%) are at the lower end of the top 20, which may require cost or pricing adjustments.  
+Categories like Health & Beauty (86.87%) and Cool Stuff (86.90%) are at the lower end of the top 20, which may require cost or pricing adjustments. 
+
+
+# Key Business Insights – Olist E-Commerce Store  
+
+## Revenue & Sales Trends
+Olist generated **$15.42** million in total revenue over 3 years.  
+**Black Friday 2017** drove 16.66% of the year’s November revenue, reflecting strong promotional performance and seasonal buying behavior.  
+Despite high order volume in some categories, high-ticket items (e.g., Computers) contributed more to total revenue, highlighting value over volume in revenue generation.  
+The **Average Order Value (AOV)** stands at **$159.85**, suggesting customers often purchase mid to high-value products.  
+
+## Fulfillment & Platform Performance
+**97% delivery success rate** indicates a robust logistics and order fulfillment system.  
+0.63% average order cancellation rate suggests strong customer satisfaction, though R$143K revenue was lost due to cancellations.  
+Key factors behind cancellations include low product ratings and minimum pricing issues.  
+
+## Customer Behavior & Retention
+Repeat buyers contributed 5.84% to total revenue—small in number but valuable, pointing to potential for loyalty programs.  
+Credit Cards are the dominant payment method, followed by Boletos. Debit cards are least used, likely due to limited acceptance and user preference.  
+Ratings above average (4.09+) are correlated with high seller/product performance. However, a perfect 5 rating does not guarantee high sales, suggesting price sensitivity outweighs ratings.  
+
+## Sellers & Category Insights
+96% of sellers are active, indicating a healthy marketplace ecosystem and seller satisfaction.  
+Revenue follows an 80/20 distribution, where a small group of sellers generate the majority of sales.  
+Product category leadership changes annually, indicating a dynamic market and shifting customer preferences.  
+Categories like Computers and Small Appliances showed both high gross profit margins (up to 95.71%) and top order values.  
+
+## Geographic Insights
+Top 3 customer density locations: São Paulo, Rio de Janeiro, Minas Gerais.  
+Top 3 retention rate locations: Acre, Rondônia, Mato Grosso.  
+Interestingly, Acre has the highest customer retention rate despite having one of the lowest customer volumes, showing potential in under-tapped markets.  
+High-density areas also show above-average retention, suggesting scope to deepen engagement in large markets.  
+
+## Profitability
+Gross Profit Margin is 85.73%, indicating efficient cost management and strong pricing strategies.  
+High-value product categories like Computers not only generate top revenue but also contribute significantly to overall profitability.  
+
+
 
 
 
