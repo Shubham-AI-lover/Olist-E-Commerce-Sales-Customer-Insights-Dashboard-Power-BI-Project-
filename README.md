@@ -349,7 +349,108 @@ Insight: Investigate low-rated products that sell well — this might indicate m
 
 **Ratings Strongly Correlate With Revenue and Orders**
 As customer review scores increase, so do order volume and revenue, seen in both the bar and scatter plots.  
-Insight: Encourage satisfied customers to leave reviews; it clearly influences future customer behavior and revenue generation.  
+Insight: Encourage satisfied customers to leave reviews; it clearly influences future customer behavior and revenue generation. 
+
+
+## (4) Customer Location & Retention 
+
+<img width="1254" height="694" alt="Customer_Location_ _Retention" src="https://github.com/user-attachments/assets/736267f6-8308-400f-ad67-268d9ee61db3" />  
+
+**Urban Hubs Drive the Majority of Sales**
+The highest customer density is observed in São Paulo, Rio de Janeiro, and Minas Gerais, accounting for a large portion of the total 99,441 customers over the 3-year period.
+Insight: These major cities are key revenue drivers and should be targeted with efficient logistics, faster delivery, and location-based marketing campaigns to enhance the customer experience.  
+
+**High Retention in Low-Density Regions**
+States like Acre, Rondônia, and Mato Grosso have the highest customer retention rates, even though they are among the least populated in terms of customers.  
+Insight: This suggests that customers in these less saturated regions are more loyal and satisfied. The company can study these regions to uncover what’s working (e.g., less competition, better delivery experience) and replicate the same strategy in other areas.  
+
+**Retention Opportunities Through Regional Strategies**  
+The overall retention rate is low (3%), indicating a need for focused efforts in customer loyalty programs, regional promotions, or even localized customer support.  
+
+## (5) Seller Performance  
+
+<img width="1283" height="704" alt="Seller_Performance" src="https://github.com/user-attachments/assets/39496cd1-b7e9-4c2f-bf34-20bebb98eca8" />  
+
+**Active Seller Growth**: The number of active sellers steadily increased over time, reaching 2,970 sellers, indicating strong platform adoption.  
+**Sales Not Solely Dependent on Ratings**: Sellers with ratings between 3.5–5 generally perform better, but some low-rated sellers still generate high revenue.  
+**Top Sellers Drive Most Revenue**: A small group of sellers contributes disproportionately to total sales, reflecting a typical 80/20 revenue distribution.  
+**Improvement Opportunity**: Many sellers have low ratings, highlighting a need for seller support programs to improve customer satisfaction and retention.  
+
+## (6) Orders & Payments Analytics  
+
+<img width="1251" height="693" alt="Order_ _Payment_Analytics" src="https://github.com/user-attachments/assets/59e47277-56fb-4a91-b8a5-bc3be2417210" />  
+
+**Credit Card Dominates Payments**:  
+Credit cards are the most popular payment method, used in over 75,000 orders, far surpassing other options like boleto and voucher.  
+Indicates customer trust in credit systems and preference for postpaid purchases.  
+
+**Payment Type vs Product Variety**:  
+Products bought via credit cards span across the highest number of categories.  
+Shows that credit cards offer flexibility and are preferred across a wide product range.  
+
+**Geographical Payment Trends**:  
+Sao Paulo, Rio de Janeiro, and Minas Gerais lead in total payment volume, with credit card again being the most used method.  
+Regional preferences matter: for example, boleto is more commonly used in some other states.  
+
+**Limited Use of Debit & Vouchers**:  
+Very low usage of debit cards and vouchers suggests limited consumer behavior adoption or possible system limitations.  
+Opportunity to promote or incentivize other payment methods. 
+
+
+## (7) Order Cancellations Analysis  
+
+<img width="1257" height="684" alt="Order_Cancellation_Analysis" src="https://github.com/user-attachments/assets/aba77d48-d338-4d8d-80d9-7e43a9be7123" />  
+
+**Very Low Overall Cancellation Rate**:
+The average order cancellation rate is just 0.63%, showing **strong operational efficiency and high customer trust**.
+
+**High Ratings → Lower Cancellations**:
+There’s a negative correlation between product ratings and cancellations—products with higher average ratings tend to have fewer cancellations.
+This highlights the importance of **product quality and customer satisfaction**.
+
+**Initial Spike in Cancellations (Oct 2016)**:
+A sharp spike in cancellation rate occurred during **October 2016**, possibly due to platform onboarding issues or seasonal demand mismatch.
+
+**Ratings Stabilize Over Time**:
+From early 2017 onward, average product ratings hover around **4.0–4.5**, indicating **consistent customer satisfaction**.  
+
+## (8) Profitability & Marketing  
+
+<img width="1270" height="701" alt="Profitabillity_ _Marketing" src="https://github.com/user-attachments/assets/88372021-45ec-45b4-9e4d-3e9d759b8881" />  
+
+**High Overall Profitability**:  
+The overall Gross Profit Margin is 85.73%, indicating strong profitability across product categories.  
+
+**Top-Performing Product Categories**:  
+Computers lead with the highest profit margin (95.71%) and the highest average order value, making them the most lucrative category.  
+
+**Other high-margin categories include**:  
+Small Appliances (94.56%)  
+Portable Kitchen & Food (93.04%)  
+Agro Industry & Commerce (92.60%)  
+Fixed Telephony (92.31%)  
+
+**Marketing Focus Recommendation**:  
+Focus marketing on categories with both high margins and high order value, such as:  
+
+Computers  
+Small Appliances (Home & Kitchen)  
+Home Appliances 2  
+Agro Industry & Commerce  
+
+**Watch for Lower Margins**:  
+Categories like Health & Beauty (86.87%) and Cool Stuff (86.90%) are at the lower end of the top 20, which may require cost or pricing adjustments.  
+
+
+
+
+
+
+
+
+
+
+
 
 
 
