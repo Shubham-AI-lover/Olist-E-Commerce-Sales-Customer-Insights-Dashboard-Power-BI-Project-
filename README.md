@@ -289,6 +289,69 @@ Monthly order trends reveal seasonality, with peaks in late 2017 and early 2018 
 This snapshot enables quick decision-making by combining key metrics with trend visuals. It helps identify business growth patterns, active seller engagement, and order behaviors over time.
 
 
+## (2) Category & Product Insights  
+
+<img width="1247" height="696" alt="Category_ _Product_Insights" src="https://github.com/user-attachments/assets/0faa282c-0af9-41a6-8d87-ce5f486b985f" />  
+
+ **Product Popularity vs Sales Volume**
+Top 3 product categories by total orders:  
+Bed_Bath_Table  
+Health_Beauty  
+Sports_Leisure  
+While "Bed_Bath_Table" had the highest number of orders, the top categories by total revenue (sales volume) are:  
+
+Health_Beauty – R$1,419,509.89  
+Watches_Gifts – R$1,269,684.96  
+Bed_Bath_Table – R$1,249,411.56  
+
+This indicates that although Bed_Bath_Table is the most frequently ordered category, Health_Beauty and Watches_Gifts are more profitable, suggesting high-value purchases in those categories.  
+
+**Average Order Value by Payment Type**
+Credit Card is the most used and generates the highest average order value: $162.86 (30.12%)  
+Other common methods:  
+Boleto: $144.34 (26.69%)  
+Debit Card: $140.35 (25.9%)  
+Voucher: $93.24 (17.24%)  
+
+#### Business Insights  
+**High-Order Categories Aren’t Always High Revenue**
+While Bed_Bath_Table, Health_Beauty, and Sports_Leisure have the highest number of orders, they don’t generate the most revenue. This indicates these are low-ticket, high-frequency categories.
+
+**High-Value Categories Drive Revenue Despite Fewer Orders**
+Categories like Computers and Small_Appliances have fewer orders but much higher average order values, contributing disproportionately to overall revenue.
+
+**Credit Cards Are the Preferred Payment Method for High-Value Orders**
+Credit cards not only lead in payment frequency but also result in the highest average order value, making them crucial for customer monetization.  
+
+**Steady Year-on-Year Revenue Growth**
+Total revenue has shown a sharp increase from 2016 to 2018, indicating successful customer acquisition, product diversification, and marketplace expansion.  
+
+## (3) Customer Behavior & Loyalty  
+
+<img width="1295" height="710" alt="Customer_Behavior_ _Loyalty" src="https://github.com/user-attachments/assets/9a38a375-12d2-4e98-9d6a-b57750091067" />  
+
+**Low Customer Loyalty / Repeat Purchase Rate**
+Only 2,979 customers (just 5.84% of total revenue) are repeat buyers, contributing around $0.90M in sales.  
+Insight: The business is heavily dependent on new customers. There's a significant opportunity to build customer retention strategies like loyalty programs or personalized offers.  
+
+**Average Product Rating is Strong**
+The overall average rating is 4.09, suggesting good customer satisfaction.  
+Insight: Maintain product/service quality and encourage more reviews to build trust with potential buyers. 
+Based on the resulting visual shown above, the product with the highest sales amount has a rating of 4.21, which is above the overall average rating.
+
+**Higher Ratings = Higher Revenue**
+Products with ratings of 5 contribute the highest revenue ($8.88M) and most orders (56,817).  
+Insight: Focus on products with high customer satisfaction for promotion and bundling. Use reviews as a signal to identify and scale successful products.  
+  
+**Low-Rated Products Still Have Sales**
+Even 1-star products generated $1.81M in revenue from 9,381 orders, showing customers are still buying poorly rated products.
+Insight: Investigate low-rated products that sell well — this might indicate mismatched expectations or misleading product listings.  
+
+**Ratings Strongly Correlate With Revenue and Orders**
+As customer review scores increase, so do order volume and revenue, seen in both the bar and scatter plots.  
+Insight: Encourage satisfied customers to leave reviews; it clearly influences future customer behavior and revenue generation.  
+
+
 
   
 
