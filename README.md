@@ -21,7 +21,7 @@ This Power BI project is built using the Olist e-commerce dataset, focusing on k
 •	 Key Influencer Visual (Optional) for understanding cancellation patterns  
 
 ## **About the Data**
-The data used in this project is sourced from Kaggle, specifically the Brazilian E-Commerce Public Dataset by Olist. It contains real-world transactions made between 2016 and 2018 on Olist — a large B2C marketplace in Brazil.  
+The data used in this project is sourced from **Kaggle**, specifically the **Brazilian E-Commerce Public Dataset by Olist**. It contains real-world transactions made between 2016 and 2018 on Olist — a large B2C marketplace in Brazil.  
 This dataset provides a comprehensive view of the entire e-commerce process, from order placement to customer delivery and reviews. It includes:  
 
 olist_orders_dataset.csv – order lifecycle and statuses  
