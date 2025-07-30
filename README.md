@@ -8,6 +8,7 @@ Dashboard Link - https://app.powerbi.com/groups/me/dashboards/bcfd1760-daa0-469a
 
 ## **Introduction**
 This Power BI project is built using the Olist e-commerce dataset, focusing on key business insights for sales performance, customer behavior, seller performance, payment analysis, and order cancellations. The dashboard helps business users and stakeholders understand sales trends, customer loyalty, product performance, and other KPIs that influence strategic decisions.
+### **Note**: The currency used in this dashboard remains in US Dollars (USD) as per the original dataset. It has not been converted to Brazilian Real (R$) for consistency and clarity.
 
 ## **Power BI Skills / Concepts Applied**
 •	Data Cleaning & Transformation in Power Query (e.g., handling nulls, changing data types, column splitting)  
@@ -304,9 +305,9 @@ Health_Beauty
 Sports_Leisure  
 While "Bed_Bath_Table" had the highest number of orders, the top categories by total revenue (sales volume) are:  
 
-Health_Beauty – R$1,419,509.89  
-Watches_Gifts – R$1,269,684.96  
-Bed_Bath_Table – R$1,249,411.56  
+Health_Beauty – $1,419,509.89  
+Watches_Gifts – $1,269,684.96  
+Bed_Bath_Table – $1,249,411.56  
 
 This indicates that although Bed_Bath_Table is the most frequently ordered category, Health_Beauty and Watches_Gifts are more profitable, suggesting high-value purchases in those categories.  
 
